@@ -1,0 +1,30 @@
+#titlebar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background: #202327;
+    color: white;
+    font-size: 17pt;
+}
+#title {
+    display: inline-block;
+    margin-left: 2px;
+}
+#controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: right;
+}
+#controls button {
+    background: transparent;
+    border: none;
+    transition: background 0.2s;
+}
+#controls button#close:hover {
+    background: coral;
+}
+#controls button:hover {
+    background: #494a4c;
+}
+.fa {
+    font-size: 17pt;
+}

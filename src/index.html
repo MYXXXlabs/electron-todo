@@ -23,13 +23,15 @@ For more info, see LICENSE and NOTICE files
     <div id="titlebar" class="noselect">
         <div id="title" class="drag">ELECTRON-TODO</div>
         <div id="controls">
-            <button><i class="fa fa-window-minimize"></i></button>
-            <button><i class="fa fa-window-maximize"></i></button>
-            <button id="close"><i class="fa fa-times"></i></button>
+            <button onclick="minimise()"><i class="fa fa-window-minimize"></i></button>
+            <button onclick="maximise()"><i class="fa fa-window-maximize"></i></button>
+            <button id="close" onclick="close()"><i class="fa fa-times"></i></button>
         </div>
     </div>
 </div>
 <!-- FontAwesome -->
 <script src="./libs/fontawesome/fa-kit.js"></script>
+<!-- Other Scripts -->
+<script src="./scripts/js/titlebar.js"></script>
 </body>
 </html>
