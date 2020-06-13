@@ -1,0 +1,10 @@
+.fa {
+    color: white;
+}
+.noselect {
+    user-select: none;
+    -webkit-user-select: none;
+}
+.drag {
+    -webkit-app-region: drag;
+}
