@@ -1,6 +1,12 @@
 html {
     font-family: Consolas, monospace;
 }
+body {
+    margin: 0;
+}
+body * {
+    box-sizing: border-box;
+}
 .fa {
     color: white;
 }
