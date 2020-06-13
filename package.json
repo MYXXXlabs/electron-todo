@@ -4,7 +4,7 @@
   "description": "A lightweight to-do list app built with electron",
   "main": "./src/main.js",
   "scripts": {
-    "test": "electron electron-todo/electron-todo/electron-todo"
+    "test": "electron ."
   },
   "repository": {
     "type": "git",
