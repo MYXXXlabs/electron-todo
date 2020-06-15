@@ -3,7 +3,7 @@
     grid-template-columns: 1fr auto;
     background: #202327;
     color: white;
-    font-size: 17pt;
+    font-size: 4vh;
 }
 #title {
     display: inline-block;
@@ -20,14 +20,11 @@
     transition: background 0.2s;
     color: white;
     outline: none;
-    font-size: 15pt;
+    font-size: 3vh;
 }
 #controls button#close:hover {
     background: coral;
 }
 #controls button:hover {
     background: #494a4c;
-}
-.fa {
-    font-size: 17pt;
 }

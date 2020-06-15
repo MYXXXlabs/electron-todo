@@ -19,6 +19,15 @@ body * {
 }
 input {
     font-family: Consolas;
+    font-size: 150%;
+}
+#list {
+    list-style: none;
+    font-size: 150%;
+}
+#input {
+    outline: none;
+    border: none;
 }
 li {
     cursor: pointer;
