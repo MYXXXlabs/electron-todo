@@ -17,3 +17,12 @@ body * {
 .drag {
     -webkit-app-region: drag;
 }
+input {
+    font-family: Consolas;
+}
+li {
+    cursor: pointer;
+}
+li:hover {
+    text-decoration: line-through;
+}

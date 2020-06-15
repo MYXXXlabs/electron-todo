@@ -16,6 +16,7 @@ For more info, see LICENSE and NOTICE files
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./styles/css/main.css" rel="stylesheet" type="text/css" />
     <link href="./styles/css/titlebar.css" rel="stylesheet" type="text/css" />
+    <link href="./fa/css/all.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 <body>
@@ -23,15 +24,18 @@ For more info, see LICENSE and NOTICE files
     <div id="titlebar" class="noselect">
         <div id="title" class="drag">ELECTRON-TODO</div>
         <div id="controls">
-            <button onclick="minimise()"><i class="fa fa-window-minimize"></i></button>
-            <button onclick="maximise()"><i class="fa fa-window-maximize"></i></button>
-            <button id="close" onclick="close()"><i class="fa fa-times"></i></button>
+            <button onclick="minimise()">_</button>
+            <button onclick="maximise()">[]</button>
+            <button id="close">X</button>
         </div>
     </div>
+    <div id="todo">
+        <input type="text" id="input" placeholder="What needs to be done?" />
+        <ul id="list"></ul>
+    </div>
 </div>
-<!-- FontAwesome -->
-<script src="./libs/fontawesome/fa-kit.js"></script>
 <!-- Other Scripts -->
 <script src="./scripts/js/titlebar.js"></script>
+<script src="./scripts/js/app.js"></script>
 </body>
 </html>

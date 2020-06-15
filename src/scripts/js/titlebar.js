@@ -6,6 +6,11 @@ function minimise() {
     remote.BrowserWindow.getFocusedWindow().minimize();
 }
 function maximise() {
+    if(remote.BrowserWindow.getFocusedWindow().isMaximized()) {
+        maximised = true;
+    } else {
+        maximised = false;
+    }
     if(!maximised) {
         remote.BrowserWindow.getFocusedWindow().maximize();
         maximised = true;
@@ -14,6 +19,6 @@ function maximise() {
         maximised = false;
     }
 }
-function close() {
+document.getElementById("close").addEventListener("click", function() {
     remote.getCurrentWindow().close();
-}
+});

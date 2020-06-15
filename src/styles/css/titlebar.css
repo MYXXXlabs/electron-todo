@@ -18,6 +18,9 @@
     background: transparent;
     border: none;
     transition: background 0.2s;
+    color: white;
+    outline: none;
+    font-size: 15pt;
 }
 #controls button#close:hover {
     background: coral;
